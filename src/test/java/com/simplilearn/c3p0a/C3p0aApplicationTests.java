@@ -11,7 +11,7 @@ class C3p0aApplicationTests {
 
 	@Test
 	void testWordCount() {
-		assertEquals(7, app.getWordCount("Train to win in the digital economy"));
+		assertEquals(7, app.getWordCount("Train to win in... the digital economy"));
 	}
 
 }
